@@ -1,11 +1,24 @@
-import React from 'react'
+// import React from 'react'
 
-const User = ({name}) => {
-  return (
-    <div>
-      <p>user name is : {name}</p>
-    </div>
-  )
+// const User = ({name}) => {
+//   return (
+//     <div>
+//       <p>user name is : {name}</p>
+//     </div>
+//   )
+// }
+
+// export default User
+import React, { Component } from 'react'
+
+ class User extends Component {
+  render() {
+    return (
+      <div>
+           <p>user name is : {this.props.name}</p>
+      </div>
+    )
+  }
 }
+export default User;
 
-export default User

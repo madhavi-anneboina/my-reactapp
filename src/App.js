@@ -3,10 +3,37 @@ import './App.css';
 import User from './User';
 
 function App() {
+  let users = [
+    {
+      id:1,
+      name:"john",
+      age:25,
+      place:"hyderabad"
+    },
+    {
+      id:2,
+      name:"kohn",
+      age:26,
+      place:"bangolore"
+    },
+    {
+      id:3,
+      name:"Khan",
+      age:35,
+      place:"secundrabad"
+    }
+  ]
   return (
     <div className="App">
-     
-     <User  name="madhavi"/>
+       {users.map(
+        (u)=>{
+          return(
+            <User detail={u} />
+          )
+         
+        }
+       )}
+    
     </div>
   );
 }

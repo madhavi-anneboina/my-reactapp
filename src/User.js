@@ -15,7 +15,7 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-           <p>user name is : {this.props.name}</p>
+           <p>user name is : {this.props.detail.name}</p>
       </div>
     )
   }

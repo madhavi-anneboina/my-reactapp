@@ -6,10 +6,10 @@ function App() {
     <div className="App">
      
        <p> added react data</p>
-       <p>added table row data into the model </p>
+       {/* <p>added table row data into the model </p>
        <p>added table row data into the model </p>
        <p>Reporting data added </p>
-       <p> sync data added </p>
+       <p> sync data added </p> */}
     </div>
   );
 }

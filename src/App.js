@@ -7,6 +7,8 @@ function App() {
      
        <p> added react data</p>
        <p>added table row data into the model </p>
+       <p>added table row data into the model </p>
+
     </div>
   );
 }

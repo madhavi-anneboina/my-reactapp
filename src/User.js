@@ -15,7 +15,11 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-           <p>user name is : {this.props.detail.name}</p>
+           <p>user deatils are</p>
+           <p>{this.props.id}</p>
+           <p>{this.props.name}</p>
+           <p>{this.props.age}</p>
+           <p>{this.props.place}</p>
       </div>
     )
   }

@@ -28,7 +28,7 @@ function App() {
        {users.map(
         (u)=>{
           return(
-            <User detail={u} />
+            <User id={u.id} name={u.name} age={u.age} place={u.place} />
           )
          
         }

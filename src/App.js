@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import User from './User';
 
-function App() {
+function App(props) {
+
   let users = [
     {
       id:1,
@@ -33,7 +34,7 @@ function App() {
          
         }
        )}
-    
+       {props.children}
     </div>
   );
 }

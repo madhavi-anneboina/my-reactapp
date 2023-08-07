@@ -12,8 +12,11 @@ class App extends Component {
       <div>
         <h1>product:{this.state.product}</h1>
         <p>Price: {this.state.price}</p>
-        <input type='number'/>
-        <button>Update</button>
+        <input id="price" type='number'/>
+        <button onClick={()=>{
+        let price = document.getElementById('price').value
+        console.log(price)
+        }}>Update</button>
       </div>
     )
   }

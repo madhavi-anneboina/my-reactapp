@@ -14,8 +14,10 @@ class App extends Component {
         <p>Price: {this.state.price}</p>
         <input id="price" type='number'/>
         <button onClick={()=>{
-        let price = document.getElementById('price').value
+        let p = document.getElementById('price').value
         console.log(price)
+        this.state.price = p
+        console.log(this.p)
         }}>Update</button>
       </div>
     )

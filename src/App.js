@@ -13,15 +13,7 @@ class App extends Component {
         <h1>product:{this.state.product}</h1>
         <p>Price: {this.state.price}</p>
         <input id="price" type='number'/>
-        <button onClick={()=>{
-        let p = document.getElementById('price').value
-        console.log(p)
-        this.state.price = p
-        console.log(this.p)
-        this.setState({
-          price:p
-        })
-        }}>Update</button>
+        <button Onclick={updatePrice}>Update</button>
       </div>
     )
   }

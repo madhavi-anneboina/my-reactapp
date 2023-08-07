@@ -12,6 +12,8 @@ class App extends Component {
       <div>
         <h1>product:{this.state.product}</h1>
         <p>Price: {this.state.price}</p>
+        <input type='number'/>
+        <button>Update</button>
       </div>
     )
   }

@@ -1,42 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import User from './User';
+import React, { Component } from 'react'
 
-function App(props) {
 
-  let users = [
-    {
-      id:1,
-      name:"john",
-      age:25,
-      place:"hyderabad"
-    },
-    {
-      id:2,
-      name:"kohn",
-      age:26,
-      place:"bangolore"
-    },
-    {
-      id:3,
-      name:"Khan",
-      age:35,
-      place:"secundrabad"
-    }
-  ]
-  return (
-    <div className="App">
-       {users.map(
-        (u)=>{
-          return(
-            <User  key={u.id} id={u.id} name={u.name} age={u.age} place={u.place} />
-          )
-         
-        }
-       )}
-       {props.children}
-    </div>
-  );
+class App extends Component {
+  product = "Real me pro "
+  price =  20000
+  render() {
+    return (
+      <div>
+        <h1>product:{this.product}</h1>
+        <p>Price: {this.price}</p>
+      </div>
+    )
+  }
 }
 
 export default App;

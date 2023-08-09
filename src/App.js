@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 
 class App extends Component {
-  // state = {
-  //   product : "Real me pro",
-  //   price : 20000
-  // }
+  state = {
+    product : "Real me pro",
+    price : 20000
+  }
   
   render() {
     return (

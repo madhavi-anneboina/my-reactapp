@@ -9,12 +9,12 @@ class App extends Component {
   
   render() {
     return (
-      // <div>
-      //   <h1>product:{this.state.product}</h1>
-      //   <p>Price: {this.state.price}</p>
-      //   <input id="price" type='number'/>
-      //   <button Onclick={updatePrice}>Update</button>
-      // </div>
+      <div>
+        <h1>product:{this.state.product}</h1>
+        <p>Price: {this.state.price}</p>
+        <input id="price" type='number'/>
+        <button Onclick={updatePrice}>Update</button>
+      </div>
     )
   }
 }

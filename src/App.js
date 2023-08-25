@@ -9,7 +9,10 @@ const App = () => {
   const[text,setText] = useState('')
   return (
     <div>
-      <h4>Hi there</h4>
+     <Field onChange={setText}/>
+     <Languages  language={language} onLanguageChange={setLanguage}/>
+     <hr/>
+     <Translate text={text} language={language}/>
     </div>
   )
 }

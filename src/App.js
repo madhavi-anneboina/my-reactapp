@@ -1,22 +1,17 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react';
+import Field from './components/Filed';
+import Languages from './components/Languages';
+import Translate from './components/Translate';
 
 
-class App extends Component {
-  state = {
-    product : "Real me pro",
-    price : 20000
-  }
-  
-  render() {
-    return (
-      <div>
-        <h1>product:{this.state.product}</h1>
-        <p>Price: {this.state.price}</p>
-        <input id="price" type='number'/>
-        <button Onclick={updatePrice}>Update</button>
-      </div>
-    )
-  }
+const App = () => {
+  const[language,setLanguage] = useState('es')
+  const[text,setText] = useState('')
+  return (
+    <div>
+      <h4>Hi there</h4>
+    </div>
+  )
 }
 
-export default App;
+export default App

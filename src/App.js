@@ -12,7 +12,7 @@ const App = () => {
   // const time = date.toLocaleTimeString()
   return (
     <div>
-       <input />
+       <input type="number" min={5} max={10}/>
     </div>
   )
 }

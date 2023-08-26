@@ -14,7 +14,7 @@ const App = () => {
   const minValue = 5;
   return (
     <div>
-       <input type="number" min={5} />
+      <textarea  autoFocus={true}/>
     </div>
   )
 }

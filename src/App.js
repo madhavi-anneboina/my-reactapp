@@ -12,11 +12,7 @@ const App = () => {
   // const time = date.toLocaleTimeString()
   return (
     <div>
-     {/* <Filed onChange={setText} />
-     <Languages  language={language} onLanguageChange={setLanguage}/>
-     <hr/>
-     <Translate text={text} language={language}/> */}
-     {new Date().toLocaleTimeString()}
+       <input />
     </div>
   )
 }

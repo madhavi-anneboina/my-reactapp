@@ -8,15 +8,15 @@ import Translate from './components/Translate';
 const App = () => {
   const[language,setLanguage] = useState('es')
   const[text,setText] = useState('')
-  const date = new Date()
-  const time = date.toLocaleTimeString()
+  // const date = new Date()
+  // const time = date.toLocaleTimeString()
   return (
     <div>
      {/* <Filed onChange={setText} />
      <Languages  language={language} onLanguageChange={setLanguage}/>
      <hr/>
      <Translate text={text} language={language}/> */}
-     {time}
+     {new Date().toLocaleTimeString()}
     </div>
   )
 }

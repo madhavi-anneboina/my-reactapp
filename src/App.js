@@ -11,10 +11,10 @@ const App = () => {
   // const date = new Date()
   // const time = date.toLocaleTimeString()
   const inputType="number"
-  const minValue = 5
+  const minValue = 5;
   return (
     <div>
-       <input type={inputType} min={minValue} />
+       <input type="number" min={5} />
     </div>
   )
 }

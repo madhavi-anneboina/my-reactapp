@@ -1,4 +1,4 @@
-import React,{useTranslation} from 'react'
+import React from 'react'
 
 const Translate = ({text,language}) => {
     const Translated = useTranslation(text,language)

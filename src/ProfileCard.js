@@ -1,8 +1,11 @@
 import React from 'react'
 
-const ProfileCard = () => {
+const ProfileCard = ({title,handle}) => {
   return (
-    <div>ProfileCard</div>
+    <div>
+        <div>{title}</div>
+        <div>{handle}</div>
+    </div>
   )
 }
 

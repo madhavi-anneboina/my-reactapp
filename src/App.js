@@ -1,6 +1,9 @@
 // import './styles.css'
 import React, { useState } from 'react';
 import ProfileCard from './ProfileCard';
+import alexa from './images/alexa.png';
+import cortana from './images/cortana.png';
+import siri from './images/siri.png'
 
 
 const App = () => {

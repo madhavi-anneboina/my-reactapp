@@ -7,6 +7,9 @@ const App = () => {
 
   return (
     <div>
+      <h5>Profile App Assistances</h5>
+      <ProfileCard />
+      <ProfileCard />
       <ProfileCard />
     </div>
   )

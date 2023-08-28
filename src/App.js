@@ -6,11 +6,12 @@ import AnimalShow from './AnimalShow';
 
 
 const App = () => {
-
+const handleClick = () =>{
+  console.log("clicked")
+}
   return (
-   
      <div>
-       <AnimalShow />
+         <button onClick={handleClick}>Add Element</button>
      </div>
 
   )

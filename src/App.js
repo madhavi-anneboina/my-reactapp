@@ -6,12 +6,16 @@ import AnimalShow from './AnimalShow';
 
 
 const App = () => {
+  const [count,setCount] = useState(0)
 const handleClick = () =>{
-  console.log("clicked")
+ setCount(count + 1)
 }
   return (
      <div>
          <button onClick={handleClick}>Add Element</button>
+         <div>
+          Number of animals : {count}
+         </div>
      </div>
 
   )

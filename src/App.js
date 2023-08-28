@@ -10,25 +10,22 @@ import siri from './images/siri.png'
 const App = () => {
 
   return (
-    // <div>
-    //   <h5>Profile App Assistances</h5>
-    //  <ProfileCard title="Alexa" handle="@alexa99" image={alexa}/>
-    //   <ProfileCard title="Cortana" handle="@cortana32" image={cortana}/>
-    //   <ProfileCard title="Siri" handle="@siri01" image={siri} />
-    // </div>
-
-    <div class="columns">
-      <div class="column">
+   
+  <div className="container">
+    <div className='section'>
+    <div className="columns">
+      <div className="column is-3">
         <ProfileCard title="Alexa" handle="@alexa99" image={alexa} />
       </div>
-      <div class="column">
+      <div className="column is-3">
         <ProfileCard title="Cortana" handle="@cortana32" image={cortana} />
       </div>
-      <div class="column">
+      <div className="column is-3">
         <ProfileCard title="Siri" handle="@siri01" image={siri} />
       </div>
     </div>
-
+    </div>
+  </div>
 
   )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AnimalShow = () => {
+const AnimalShow = (props) => {
   return (
-    <div>AnimalShow</div>
+    <div>{props.type}</div>
   )
 }
 

@@ -2,6 +2,7 @@
 import 'bulma/css/bulma.css'
 import React, { useState } from 'react';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 
 
 
@@ -14,7 +15,10 @@ const App = () => {
 
          <h1>Hello world</h1>
 
-         <Greet name="madhavi" />
+       
+
+         <Welcome />
+         
 
       
      </div>

@@ -11,13 +11,11 @@ const App = () => {
 
   return (
      <div>
-        
-
-         <h1>Hello world</h1>
-
-       
-
-         <Welcome />
+        <h1>Hello world</h1>
+        <Greet  name = "ramana">
+          <p>How are you doing props</p>
+          </Greet>
+        <Greet name="tuy"/>
          
 
       

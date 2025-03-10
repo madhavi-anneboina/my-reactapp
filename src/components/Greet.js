@@ -1,9 +1,10 @@
 import React from "react";
 
-const Greet = ({name}) =>{
+const Greet = ({name,children}) =>{
     return (
         <div>
-            <h1>Hello {name} how are you</h1>
+            <h1>Hello {name}</h1>
+            <p>{children}</p>
         </div>
     )
 }

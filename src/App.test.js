@@ -9,11 +9,7 @@ test('should render Hello World text', () => {
   expect(headingElement ).toBeInTheDocument();
 });
 
-test('should render Hello how are you text', () => {
-  render(<Greet />);
-  const headingElement  = screen.getByText(/Hello how are you/i);
-  expect(headingElement ).toBeInTheDocument();
-});
+
 
 test('should render Hello I am welcome component text', () => {
   render(<Welcome />);
@@ -21,6 +17,21 @@ test('should render Hello I am welcome component text', () => {
   expect(headingElement ).toBeInTheDocument();
 });
 
+test('should render Hello ramana text', () => {
+  render(<Greet name="ramana" />);
+  const headingElement = screen.getByText(/Hello ramana/i);
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('should render children text', () => {
+  render(
+    <Greet name="ramana">
+      <p>How are you doing props</p>
+    </Greet>
+  );
+  const paragraphElement = screen.getByText(/How are you doing props/i);
+  expect(paragraphElement).toBeInTheDocument();
+});
 
 
 

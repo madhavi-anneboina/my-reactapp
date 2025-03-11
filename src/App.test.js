@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen,fireEvent } from '@testing-library/react';
 import App from './App';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
@@ -11,11 +11,21 @@ test('should render Hello World text', () => {
 
 
 
-test('should render Hello I am welcome component text', () => {
+test('should render  welcome component', () => {
   render(<Welcome />);
-  const headingElement  = screen.getByText(/Hello I am welcome component/i);
+  const headingElement  = screen.getByText(/cggh/i);
   expect(headingElement ).toBeInTheDocument();
 });
+
+
+test('updates message on Subscribe button click', () => {
+  render(<Welcome />);
+  const buttonElement = screen.getByText(/Subscribe/i);
+  fireEvent.click(buttonElement);
+  const updatedMessage = screen.getByText(/helloo i am visiotor/i);
+  expect(updatedMessage).toBeInTheDocument();
+});
+
 
 test('should render Hello ramana text', () => {
   render(<Greet name="ramana" />);

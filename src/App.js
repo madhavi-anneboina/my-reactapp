@@ -16,6 +16,8 @@ const App = () => {
           <p>How are you doing props</p>
           </Greet>
         <Greet name="tuy"/>
+
+        <Welcome />
          
 
       

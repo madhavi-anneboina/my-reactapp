@@ -3,6 +3,9 @@ import 'bulma/css/bulma.css'
 import React, { useState } from 'react';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Counter from './components/Counter';
+import Message from './components/Message';
+
 
 
 
@@ -18,6 +21,9 @@ const App = () => {
         <Greet name="tuy"/>
 
         <Welcome />
+
+        <Counter />
+        <Message />
          
 
       

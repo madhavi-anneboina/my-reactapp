@@ -3,7 +3,10 @@ import App from './App';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Counter from './components/Counter';
-import Messagew from './components/Message';
+import Message from './components/Message';
+import ParentComponent from './components/ParentComponent';
+import ChildComponent from './components/ChildComponent';
+
 
 test('should render Hello World text', () => {
   render(<App />);
@@ -75,6 +78,33 @@ test('should render Thak you for subscribing ', () => {
   const headingElement = screen.getByText(/Thak you for subscribing/i);
   expect(headingElement).toBeInTheDocument();
 });
+
+test('should render parent component ', () => {
+  render(<ParentComponent />);
+  const headingElement = screen.getByText(/Greet Parent Component/i);
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('should render child component with button ', () => {
+  render(<ChildComponent greetParent = {() =>{}}/>);
+  const headingElement = screen.getByText(/clik me from child/i);
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('calls greetParent function when button is clicked ', () => {
+  const mockGreetParent = jest.fn()
+  render(<ChildComponent greetParent = {mockGreetParent} />);
+  const button = screen.getByText(/clik me from child/i);
+  fireEvent.click(button);
+   expect(mockGreetParent).toHaveBeenCalledTimes(1)
+  // const headingElement = screen.getByText(/I am coming from Child/i);
+  // expect(headingElement).toBeInTheDocument();
+});
+
+
+
+
+
 
 
 

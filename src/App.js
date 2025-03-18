@@ -5,6 +5,8 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Counter from './components/Counter';
 import Message from './components/Message';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 
 
@@ -24,7 +26,9 @@ const App = () => {
 
         <Counter />
         <Message />
-         
+
+        <ParentComponent />
+         <UserGreeting />
 
       
      </div>

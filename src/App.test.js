@@ -6,6 +6,8 @@ import Counter from './components/Counter';
 import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
 import ChildComponent from './components/ChildComponent';
+import UserGreeting from './components/UserGreeting';
+
 
 
 test('should render Hello World text', () => {
@@ -101,6 +103,18 @@ test('calls greetParent function when button is clicked ', () => {
   // expect(headingElement).toBeInTheDocument();
 });
 
+test("renders welcome to the component logged-in user", () => {
+  render(<UserGreeting />);
+  expect(screen.getByText(/Welcome to the component/i)).toBeInTheDocument();
+});
+
+test("welcome message for guest user when state is changed", () => {
+  const component = new UserGreeting();
+   component.state.isLoggedin = false;
+   render(component.render());
+
+  expect(screen.getByText(/Welcome to guest user/i)).toBeInTheDocument();
+});
 
 
 

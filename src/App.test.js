@@ -7,6 +7,7 @@ import Message from './components/Message';
 import ParentComponent from './components/ParentComponent';
 import ChildComponent from './components/ChildComponent';
 import UserGreeting from './components/UserGreeting';
+import Form from './components/Form';
 
 
 
@@ -115,6 +116,26 @@ test("welcome message for guest user when state is changed", () => {
 
   expect(screen.getByText(/Welcome to guest user/i)).toBeInTheDocument();
 });
+
+
+test('should render  Form component', () => {
+  render(<Form />);
+  expect(screen.getByText(/Username/i)).toBeInTheDocument();
+  expect(screen.getByText(/Comments/i)).toBeInTheDocument();
+  expect(screen.getByText(/Topic/i)).toBeInTheDocument();
+ expect(screen.getByRole("button", { name: /Submit/i })).toBeInTheDocument();
+
+});
+
+test("updates username field on user input", () => {
+  render(<Form />);
+
+  // Now the label is correctly associated with the input field
+  const usernameInput = screen.getByLabelText("Username");
+  fireEvent.change(usernameInput, { target: { value: "John Doe" } });
+  expect(usernameInput.value).toBe("John Doe");
+});
+
 
 
 

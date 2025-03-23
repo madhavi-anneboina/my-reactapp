@@ -9,12 +9,13 @@ import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
+import Form from "./components/Form";
 
 const App = () => {
   return (
     <div>
       <h1>Hello world</h1>
-      <Greet name="ramana">
+      {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>
       <Greet name="tuy" />
@@ -24,7 +25,9 @@ const App = () => {
       <ParentComponent />
       <UserGreeting />
       <NameList />
-      <Stylesheet />
+      <Stylesheet /> */}
+
+      <Form />
     </div>
   );
 };

@@ -10,6 +10,10 @@ import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
+import FragementDemo from "./components/FragementDemo";
+import PureComp from "./components/PureComp";
+
 
 const App = () => {
   return (
@@ -26,8 +30,13 @@ const App = () => {
       <UserGreeting />
       <NameList />
       <Stylesheet /> */}
+{/* 
+      <Form /> */}
 
-      <Form />
+      {/* <LifeCycleA /> */}
+{/* 
+      <FragementDemo /> */}
+      <PureComp />
     </div>
   );
 };

@@ -13,6 +13,8 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import FragementDemo from "./components/FragementDemo";
 import PureComp from "./components/PureComp";
+import PareComp from "./components/PareComp";
+import TodoList from "./components/TodoList";
 
 
 const App = () => {
@@ -36,7 +38,8 @@ const App = () => {
       {/* <LifeCycleA /> */}
 {/* 
       <FragementDemo /> */}
-      <PureComp />
+      {/* <PareComp /> */}
+      <TodoList />
     </div>
   );
 };

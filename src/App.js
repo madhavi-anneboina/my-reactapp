@@ -15,6 +15,8 @@ import FragementDemo from "./components/FragementDemo";
 import PureComp from "./components/PureComp";
 import PareComp from "./components/PareComp";
 import TodoList from "./components/TodoList";
+import RefsDemo from "./components/RefsDemo";
+
 
 
 const App = () => {
@@ -40,6 +42,8 @@ const App = () => {
       <FragementDemo /> */}
       {/* <PareComp /> */}
       <TodoList />
+
+      <RefsDemo />
     </div>
   );
 };

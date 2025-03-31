@@ -20,6 +20,7 @@ class RefsDemo extends React.Component{
         return(
             <div>
               <input type ="text" ref={this.inputRef} />
+              <input type ="password" ref={this.inputRef} />
               <button onClick={this.clickHandler}>Click Me</button>
             </div>
         )

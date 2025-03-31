@@ -16,7 +16,7 @@ import PureComp from "./components/PureComp";
 import PareComp from "./components/PareComp";
 import TodoList from "./components/TodoList";
 import RefsDemo from "./components/RefsDemo";
-
+import FocusInput from "./components/FocusInput"
 
 
 const App = () => {
@@ -41,9 +41,10 @@ const App = () => {
 {/* 
       <FragementDemo /> */}
       {/* <PareComp /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <FocusInput />
 
-      <RefsDemo />
+      {/* <RefsDemo /> */}
     </div>
   );
 };

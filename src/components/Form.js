@@ -26,7 +26,7 @@ import React, { Component } from 'react'
        <form onSubmit={this.submitHandler}>
         <div>
             <label htmlFor='username'>Username</label> 
-            <input type="text"   name="username" value = {username} onChange={this.changeHandler}/>
+            <input type="text" name="username" value = {username} onChange={this.changeHandler}/>
         </div>
         <div>
             <label htmlFor='textarea' >Comments</label>

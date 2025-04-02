@@ -21,6 +21,8 @@ import ForwardRefParentInput from "./components/ForwardRefParentInput";
 import PortalDemo from "./components/PortalDemo";
 import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import ClickHover from "./components/ClickHover";
 
 const App = () => {
   return (
@@ -50,14 +52,18 @@ const App = () => {
       {/* <RefsDemo /> */}
       {/* <ForwardRefParentInput /> */}
       {/* <PortalDemo /> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
          <Hero heroName="Batman" />
         <Hero heroName="Superman" />
         </ErrorBoundary>
 
         <ErrorBoundary>
         <Hero heroName="Joker" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+
+        <ClickCounter name= "Ramana" />
+        <ClickHover />
+        
      
     </div>
   );

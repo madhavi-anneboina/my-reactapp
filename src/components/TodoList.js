@@ -34,7 +34,6 @@ const TodoList = () =>{
 
     return(
         <div>
-           
            <input type = "text" value={inputValue} onChange={changeHandler} />
            <button onClick={submitHandler}>Add</button>
            <ul>

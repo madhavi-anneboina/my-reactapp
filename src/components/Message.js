@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import withCounter from './withCounter'
+
 
 class Message extends Component {
-   constructor(){
-    super()
+   constructor(props){
+    super(props)
     this.state = {
         message : "Welcome visitor"
     }
@@ -16,10 +18,12 @@ class Message extends Component {
     return (
       <div>
         <h1>{this.state.message}</h1>
+
+        <h4>{this.props.name}</h4>
         <button onClick={this.changeMessage}>Subscribe</button>
       </div>
     )
   }
 }
 
-export default Message
+export default withCounter(Message)

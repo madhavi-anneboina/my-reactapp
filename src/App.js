@@ -23,11 +23,17 @@ import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
 import ClickCounter from "./components/ClickCounter";
 import ClickHover from "./components/ClickHover";
+import User from "./components/User";
+import CounterOne from "./components/CounterOne";
+import ClickCounterTwo from "./components/ClickCounterTwo";
+import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <h1><i>Hello world</i></h1>
+      <p> <b>Friends</b> is an American Tv Show.<br/><u> i will get the details for them</u></p>
+
       {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>
@@ -52,7 +58,7 @@ const App = () => {
       {/* <RefsDemo /> */}
       {/* <ForwardRefParentInput /> */}
       {/* <PortalDemo /> */}
-        {/* <ErrorBoundary>
+      {/* <ErrorBoundary>
          <Hero heroName="Batman" />
         <Hero heroName="Superman" />
         </ErrorBoundary>
@@ -61,10 +67,21 @@ const App = () => {
         <Hero heroName="Joker" />
         </ErrorBoundary> */}
 
-        <ClickCounter name= "Ramana" />
-        <ClickHover />
-        
-     
+      {/* <ClickCounter name= "Ramana" />
+        <ClickHover /> */}
+
+      {/* <User render= {(isLoggedIn) => isLoggedIn ? "Ramana" : "Guest"} /> */}
+
+      {/* <CounterOne
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
+      <CounterOne
+        render={(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
     </div>
   );
 };

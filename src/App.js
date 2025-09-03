@@ -31,41 +31,18 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-      <h1><i>Hello world</i></h1>
-      <p> <b>Friends</b> is an American Tv Show.<br/><u> i will get the details for them</u></p>
-      <img src="src/images/cortana.png" alt="cortana image"/>
-      <a href="https://www.traversymedia.com/modern-react-from-the-beginning">is an American Tv Show  i will get the details for them</a> <br/>
-      <a href="/data.html" rel="noopener noreferrer">
-  Details for them
-   </a>
-    <table border={2} cellpadding={10}>
-      <thead>
-        <tr>
-          <th colSpan={2}>Names</th>
-        </tr>
-        <tr>
-          <th>FirstName</th>
-          <th>LastName</th>
-          <th>Age</th>
-        </tr>
-        <td rowSpan={4}>Details</td>
-        <tr>
-          <td>Madhavi</td>
-          <td>Latha</td>
-          <td>12</td>
-        </tr>
-        <tr>
-          <td>shyam</td>
-          <td>Kumar</td>
-          <td>10</td>
-        </tr>
-        <tr>
-          <td>ramana</td>
-          <td>Kumar</td>
-          <td>20</td>
-        </tr>
-      </thead>
-    </table>
+      <h1>Lists</h1>
+      <ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Cherries</li>
+</ul>
+<ol>
+  <li>Wake up</li>
+  <li>Brush teeth</li>
+  <li>Eat breakfast</li>
+</ol>
+       
 
       {/* <Greet name="ramana">
         <p>How are you doing props</p>

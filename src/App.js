@@ -31,8 +31,18 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-      <h1><i>Hello world</i></h1>
-      <p> <b>Friends</b> is an American Tv Show.<br/><u> i will get the details for them</u></p>
+      <h1>Lists</h1>
+      <ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Cherries</li>
+</ul>
+<ol>
+  <li>Wake up</li>
+  <li>Brush teeth</li>
+  <li>Eat breakfast</li>
+</ol>
+       
 
       {/* <Greet name="ramana">
         <p>How are you doing props</p>

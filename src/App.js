@@ -32,16 +32,12 @@ const App = () => {
   return (
     <div>
       <h1>Lists</h1>
-      <ul>
-  <li>Apples</li>
-  <li>Bananas</li>
-  <li>Cherries</li>
-</ul>
-<ol>
-  <li>Wake up</li>
-  <li>Brush teeth</li>
-  <li>Eat breakfast</li>
-</ol>
+        <dl>
+          <dt>Name</dt>
+          <dd>Hellloo this is kavalantha</dd>
+          <dt>Age</dt>
+          <dd>3456</dd>
+        </dl>
        
 
       {/* <Greet name="ramana">

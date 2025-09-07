@@ -1,4 +1,4 @@
-// import './styles.css'
+
 import "bulma/css/bulma.css";
 import React, { useState } from "react";
 import Greet from "./components/Greet";
@@ -31,13 +31,22 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-      <h1>Lists</h1>
-        <dl>
-          <dt>Name</dt>
-          <dd>Hellloo this is kavalantha</dd>
-          <dt>Age</dt>
-          <dd>3456</dd>
-        </dl>
+       <form className="form">
+        <input type="text" name="username"  value="uname"
+        placeholder="Username" /> Username <br/>
+        <input type="password" name="password"  value="password" placeholder="Password" /> Password <br/>
+        <input type="radio"  name="gender" value="female" checked /> Female <br/>
+        <input type="radio"  name="gender" value="Male"  /> Male
+        <input type="checkbox"  name="language" value="English"  /> English <br/>
+        <input type="checkbox"  name="language" value="Telugu"  /> Telugu
+        <select name="country"> <br/>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="UK">UK</option>
+          <option value="Canada">Canada</option>
+        </select> <br/> <br/>
+        <button type="submit">Submit</button> 
+       </form>
        
 
       {/* <Greet name="ramana">

@@ -35,3 +35,29 @@ a:hover {
 a:active {
   color: orange;
 }
+
+h1{
+  padding: 50px!important;
+  border:2px dotted yellow;
+}
+p{
+  margin: 20px !important;
+}
+table {
+  border: 2px solid red;
+  background-color: lime;
+}
+
+th{
+  color: blue;
+  background-color: brown;
+}
+
+td{
+  background-color: wheat;
+}
+
+
+
+
+

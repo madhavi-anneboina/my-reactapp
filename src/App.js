@@ -31,8 +31,20 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-       <p className="paragraph"> Hello madhavi</p>
-        <h1><a href="https://github.com/madhavi-anneboina">Madhavi profile</a></h1>
+        <table>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>johndoe</td>
+            </tr>
+          </thead>
+                  </table>
       {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>

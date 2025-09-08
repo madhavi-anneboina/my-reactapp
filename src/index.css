@@ -36,10 +36,10 @@ a:active {
   color: orange;
 }
 
-h1{
+/* h1{
   padding: 50px!important;
   border:2px dotted yellow;
-}
+} */
 p{
   margin: 20px !important;
 }
@@ -57,6 +57,25 @@ td{
   background-color: wheat;
 }
 
+span{
+  color:blue;
+  font-size: 50px;
+}
+
+div{
+  background-color: red;
+  color:white;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  line-height: 1.5;
+  margin:10px;
+  border-radius:5px;
+  text-transform: capitalize;
+  text-align:justify;
+  font-weight:bold;
+
+}
 
 
 

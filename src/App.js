@@ -31,24 +31,8 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-       <form className="form">
-        <input type="text" name="username"  value="uname"
-        placeholder="Username" /> Username <br/>
-        <input type="password" name="password"  value="password" placeholder="Password" /> Password <br/>
-        <input type="radio"  name="gender" value="female" checked /> Female <br/>
-        <input type="radio"  name="gender" value="Male"  /> Male
-        <input type="checkbox"  name="language" value="English"  /> English <br/>
-        <input type="checkbox"  name="language" value="Telugu"  /> Telugu
-        <select name="country"> <br/>
-          <option value="India">India</option>
-          <option value="USA">USA</option>
-          <option value="UK">UK</option>
-          <option value="Canada">Canada</option>
-        </select> <br/> <br/>
-        <button type="submit">Submit</button> 
-       </form>
-       
-
+       <p className="paragraph"> Hello madhavi</p>
+        <h1><a href="https://github.com/madhavi-anneboina">Madhavi profile</a></h1>
       {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>

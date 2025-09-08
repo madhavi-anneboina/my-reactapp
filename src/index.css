@@ -2,4 +2,36 @@
    display: block;
   flex-direction: column;
   gap: 50px;
+} 
+
+.paragraph {
+  color: blue;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 2% 3% 4% 5%;
+}
+
+.back{
+  background-repeat: repeat-x;
+  background-position: 50px 70px;
+
+}
+
+a:link {
+  color: red;
+  font-weight: 800;
+}
+a:visited {
+  color: purple;
+  font-weight: 800;
+}
+a:hover {
+  color: green;
+  font-weight: 800;
+}
+a:active {
+  color: orange;
 }

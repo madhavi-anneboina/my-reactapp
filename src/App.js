@@ -1,4 +1,4 @@
-// import './styles.css'
+
 import "bulma/css/bulma.css";
 import React, { useState } from "react";
 import Greet from "./components/Greet";
@@ -31,15 +31,8 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-      <h1>Lists</h1>
-        <dl>
-          <dt>Name</dt>
-          <dd>Hellloo this is kavalantha</dd>
-          <dt>Age</dt>
-          <dd>3456</dd>
-        </dl>
-       
-
+       <p className="paragraph"> Hello madhavi</p>
+        <h1><a href="https://github.com/madhavi-anneboina">Madhavi profile</a></h1>
       {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>

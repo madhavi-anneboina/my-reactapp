@@ -74,8 +74,17 @@ div{
   text-transform: capitalize;
   text-align:justify;
   font-weight:bold;
-
 }
+
+div p{
+  color : black;
+  font-size:large
+}
+
+
+
+
+
 
 
 

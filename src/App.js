@@ -31,9 +31,11 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-        <h1>hello my name is Madhavi Aneboina <span> Iam a developer</span></h1>
-        <h2>Iam madhuravani Anneboina, iam into testing</h2>
+        <p>hello my name is Madhavi Aneboina <span> Iam a developer</span></p>
+        <p>Iam madhuravani Anneboina, iam into testing</p>
         <h3>iam venkata into devlopement leader</h3>
+        <p>Plase god bless Me</p>
+     
       {/* <Greet name="ramana">
         <p>How are you doing props</p>
       </Greet>

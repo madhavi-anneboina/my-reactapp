@@ -59,6 +59,11 @@ const App = () => {
         <p>This is Para 19</p> 
         <p>This is Para 20</p>
 
+<div class="ellipsis">
+  This is a very long sentence that will be truncated with an ellipsis.
+  <button>Adding</button>
+</div>
+
         
 
        

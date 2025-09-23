@@ -61,7 +61,7 @@ span{
   color:blue;
   font-size: 50px;
 }
-
+/* 
 div{
   background-color: red;
   color:white;
@@ -74,7 +74,7 @@ div{
   text-transform: capitalize;
   text-align:justify;
   font-weight:bold;
-}
+} */
 
 div p{
   color : black;
@@ -96,7 +96,60 @@ div p{
   border: 2px solid black;
 }
 
+.container{
+  border:6px solid black;
+  display: inline-flex;
+  /* flex-direction: column; */
+  height: 400px;
+  /* flex-wrap: nowrap; */
+  flex-flow: row-reverse wrap-reverse;
+}
 
+.flex-item{
+  color: black;
+  font-size: 20px;
+  padding: 1rem;
+  text-align: center;
+}
+.item1{
+  background-color: red;
+}
+.item2{
+  background-color: blue;
+}
+.item3{
+  background-color: green;
+}
+.item4{
+  background-color: orange;
+}
+.tem5{
+  background-color: yellow;
+}
+.item6{
+  background-color: purple;
+}
+.item7{
+  background-color: brown;
+}
+.item8{
+  background-color: pink;
+}
+.item9{
+  background-color: grey;
+}
+.item10{
+  background-color: cyan;
+}
+.item11{
+  background-color: lime;
+}
+.item12{
+  background-color: magenta;
+}
+.item13{
+  background-color: teal;
+}
 
 
 

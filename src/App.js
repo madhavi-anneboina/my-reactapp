@@ -30,45 +30,29 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-    <div>
-        <p className="pos">This is Para 1</p>
-        <p>This is Para 2</p>
-        <p>This is Para 3</p> 
-        <p>This is Para 4</p>
+    <div  className="container">
+       
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
 
-        <p>This is Para 2</p>
-        <p>This is Para 3</p> 
+        <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div> 
 
-        <p>This is Para 2</p>
-        <p>This is Para 3</p> 
-        <p>This is Para 4</p>
-        <p>This is Para 5</p> 
-        <p>This is Para 6</p> 
-        <p>This is Para 7</p> 
-        <p>This is Para 8</p> 
-        <p>This is Para 9</p> 
-        <p>This is Para 10</p> 
-        <p>This is Para 11</p> 
-        <p>This is Para 12</p> 
-        <p>This is Para 13</p> 
-        <p>This is Para 14</p> 
-        <p>This is Para 15</p> 
-        <p>This is Para 16</p> 
-        <p>This is Para 17</p> 
-        <p>This is Para 18</p> 
-        <p>This is Para 19</p> 
-        <p>This is Para 20</p>
+        <div className="flex-item item6">This is Para 2</div>
+        <div className="flex-item item7">This is Para 3</div> 
+        <div className="flex-item item8">This is Para 4</div>
+        <div className="flex-item item9">This is Para 5</div> 
+        <div className="flex-item item10">This is Para 6</div> 
+        <div className="flex-item item11">This is Para 7</div> 
+        <div className="flex-item item12">This is Para 8</div> 
+        <div className="flex-item item13">This is Para 9</div> 
+       
 
-<div class="ellipsis">
-  This is a very long sentence that will be truncated with an ellipsis.
-  <button>Adding</button>
-</div>
-
-        
 
        
       {/* <Greet name="ramana">
-        <p>How are you doing props</p>
+        <div>How are you doing props</div>
       </Greet>
       <Greet name="tuy" />
       <Welcome />

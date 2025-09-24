@@ -38,15 +38,21 @@ const App = () => {
 
         <div className="flex-item item4">This is Para 2</div>
         <div className="flex-item item5">This is Para 3</div> 
+        
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
 
-        <div className="flex-item item6">This is Para 2</div>
-        <div className="flex-item item7">This is Para 3</div> 
-        <div className="flex-item item8">This is Para 4</div>
-        <div className="flex-item item9">This is Para 5</div> 
-        <div className="flex-item item10">This is Para 6</div> 
-        <div className="flex-item item11">This is Para 7</div> 
-        <div className="flex-item item12">This is Para 8</div> 
-        <div className="flex-item item13">This is Para 9</div> 
+        <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div> 
+        
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
+
+        <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div> 
+
        
 
 

@@ -98,14 +98,18 @@ div p{
 
 .container{
   border:6px solid black;
-  display: inline-flex;
+  display: flex;
   /* flex-direction: column; */
-  height: 400px;
-  /* flex-wrap: nowrap; */
-  flex-flow: row-reverse wrap-reverse;
+   height: 800px;
+   flex-wrap: wrap;
+  /* flex-wrap: nowrap;
+  flex-flow: row-reverse wrap-reverse; */
+     align-content: center;
+
 }
 
 .flex-item{
+  border:3px solid black;
   color: black;
   font-size: 20px;
   padding: 1rem;
@@ -113,12 +117,15 @@ div p{
 }
 .item1{
   background-color: red;
+  order: 2;
 }
 .item2{
   background-color: blue;
+  order:3
 }
 .item3{
   background-color: green;
+  order:1
 }
 .item4{
   background-color: orange;
@@ -126,9 +133,7 @@ div p{
 .tem5{
   background-color: yellow;
 }
-.item6{
-  background-color: purple;
-}
+
 .item7{
   background-color: brown;
 }

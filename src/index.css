@@ -100,8 +100,8 @@ div p{
   border:6px solid black;
   display: flex;
   /* flex-direction: column; */
-   height: 800px;
-   flex-wrap: wrap;
+
+   flex-wrap: nowrap;
   /* flex-wrap: nowrap;
   flex-flow: row-reverse wrap-reverse; */
      align-content: center;
@@ -114,18 +114,19 @@ div p{
   font-size: 20px;
   padding: 1rem;
   text-align: center;
+  flex-grow: 1;
 }
 .item1{
   background-color: red;
-  order: 2;
 }
 .item2{
   background-color: blue;
-  order:3
+
+  /* flex-grow:1 */
 }
 .item3{
   background-color: green;
-  order:1
+
 }
 .item4{
   background-color: orange;
@@ -156,7 +157,19 @@ div p{
   background-color: teal;
 }
 
+.boxcontainer{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid black;
 
+}
 
+.box{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+   background-color: red;
+}
 
 

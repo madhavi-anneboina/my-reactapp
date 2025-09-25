@@ -61,7 +61,7 @@ span{
   color:blue;
   font-size: 50px;
 }
-
+/* 
 div{
   background-color: red;
   color:white;
@@ -74,18 +74,102 @@ div{
   text-transform: capitalize;
   text-align:justify;
   font-weight:bold;
-}
+} */
 
 div p{
   color : black;
   font-size:large
 }
 
+.pos{
+  position: fixed;
+  color: chartreuse;
+  top:0px;
+  left : 0px;
+}
 
+.ellipsis{
+  width: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 2px solid black;
+}
 
+.container{
+  border:6px solid black;
+  display: flex;
+  /* flex-direction: column; */
 
+   flex-wrap: nowrap;
+  /* flex-wrap: nowrap;
+  flex-flow: row-reverse wrap-reverse; */
+     align-content: center;
 
+}
 
+.flex-item{
+  border:3px solid black;
+  color: black;
+  font-size: 20px;
+  padding: 1rem;
+  text-align: center;
+  flex-grow: 1;
+}
+.item1{
+  background-color: red;
+}
+.item2{
+  background-color: blue;
 
+  /* flex-grow:1 */
+}
+.item3{
+  background-color: green;
+
+}
+.item4{
+  background-color: orange;
+}
+.tem5{
+  background-color: yellow;
+}
+
+.item7{
+  background-color: brown;
+}
+.item8{
+  background-color: pink;
+}
+.item9{
+  background-color: grey;
+}
+.item10{
+  background-color: cyan;
+}
+.item11{
+  background-color: lime;
+}
+.item12{
+  background-color: magenta;
+}
+.item13{
+  background-color: teal;
+}
+
+.boxcontainer{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid black;
+
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+   background-color: red;
+}
 
 

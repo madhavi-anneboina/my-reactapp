@@ -30,14 +30,35 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-    <div>
-        <p>hello my name is Madhavi Aneboina <span> Iam a developer</span></p>
-        <p>Iam madhuravani Anneboina, iam into testing</p>
-        <h3>iam venkata into devlopement leader</h3>
-        <p>Plase god bless Me</p>
-     
+    <div  className="boxcontainer">
+       
+        <div className="box item1">This is Para 2</div>
+        <div className="box item2">This is Para 3</div> 
+        <div className="box item3">This is Para 4</div>
+
+        {/* <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div> 
+        
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
+
+        <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div> 
+        
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
+
+        <div className="flex-item item4">This is Para 2</div>
+        <div className="flex-item item5">This is Para 3</div>  */}
+
+       
+
+
+       
       {/* <Greet name="ramana">
-        <p>How are you doing props</p>
+        <div>How are you doing props</div>
       </Greet>
       <Greet name="tuy" />
       <Welcome />

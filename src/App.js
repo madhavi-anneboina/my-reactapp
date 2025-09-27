@@ -30,11 +30,13 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-    <div  className="boxcontainer">
-       
-        <div className="box item1">This is Para 2</div>
-        <div className="box item2">This is Para 3</div> 
-        <div className="box item3">This is Para 4</div>
+    <div  className="container">
+    
+        
+        <div className="flex-item item1">This is Para 2</div>
+        <div className="flex-item item2">This is Para 3</div> 
+        <div className="flex-item item3">This is Para 4</div>
+ 
 
         {/* <div className="flex-item item4">This is Para 2</div>
         <div className="flex-item item5">This is Para 3</div> 
@@ -44,14 +46,7 @@ const App = () => {
         <div className="flex-item item3">This is Para 4</div>
 
         <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div> 
-        
-        <div className="flex-item item1">This is Para 2</div>
-        <div className="flex-item item2">This is Para 3</div> 
-        <div className="flex-item item3">This is Para 4</div>
-
-        <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div>  */}
+        <div className="flex-item item5">This is Para 3</div>   */}
 
        
 

@@ -1,5 +1,5 @@
-
 import "bulma/css/bulma.css";
+import "./index.css";
 import React, { useState } from "react";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
@@ -30,33 +30,17 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-    <div  className="boxcontainer">
-       
-        <div className="box item1">This is Para 2</div>
-        <div className="box item2">This is Para 3</div> 
-        <div className="box item3">This is Para 4</div>
+    <>
+      <nav class="nav">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
 
-        {/* <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div> 
-        
-        <div className="flex-item item1">This is Para 2</div>
-        <div className="flex-item item2">This is Para 3</div> 
-        <div className="flex-item item3">This is Para 4</div>
+          <li>contact</li>
+          <li>list</li>
+        </ul>
+      </nav>
 
-        <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div> 
-        
-        <div className="flex-item item1">This is Para 2</div>
-        <div className="flex-item item2">This is Para 3</div> 
-        <div className="flex-item item3">This is Para 4</div>
-
-        <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div>  */}
-
-       
-
-
-       
       {/* <Greet name="ramana">
         <div>How are you doing props</div>
       </Greet>
@@ -105,7 +89,7 @@ const App = () => {
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )}
       /> */}
-    </div>
+    </>
   );
 };
 

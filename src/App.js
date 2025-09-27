@@ -30,16 +30,10 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-    <>
-      <nav class="nav">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-
-          <li>contact</li>
-          <li>list</li>
-        </ul>
-      </nav>
+   <div class="mad">
+       <div class="itm"> 
+         Item
+       </div>
 
       {/* <Greet name="ramana">
         <div>How are you doing props</div>
@@ -89,7 +83,7 @@ const App = () => {
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )}
       /> */}
-    </>
+    </div>
   );
 };
 

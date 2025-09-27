@@ -174,4 +174,37 @@ align-self: flex-start;
    background-color: red;
 }
 
+.nav {
+  font-size: 2rem;
+  background-color: lightyellow;
+  width: 100%;
+}
+
+.nav ul {
+  justify-content: space-around!important;
+  list-style-type: none;
+  display: flex; 
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  flex-basis: 20%;
+}
+
+.nav ul li:hover {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav ul li:hover {
+    background-color: yellow;
+  }
+}
 

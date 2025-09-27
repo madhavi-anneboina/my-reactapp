@@ -37,16 +37,8 @@ const App = () => {
         <div className="flex-item item2">This is Para 3</div> 
         <div className="flex-item item3">This is Para 4</div>
  
-
-        {/* <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div> 
-        
-        <div className="flex-item item1">This is Para 2</div>
-        <div className="flex-item item2">This is Para 3</div> 
-        <div className="flex-item item3">This is Para 4</div>
-
         <div className="flex-item item4">This is Para 2</div>
-        <div className="flex-item item5">This is Para 3</div>   */}
+        <div className="flex-item item5">This is Para 3</div>   
 
        
 

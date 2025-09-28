@@ -30,10 +30,17 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 
 const App = () => {
   return (
-   <div class="mad">
-       <div class="itm"> 
-         Item
-       </div>
+    <div>
+      <div class="head">
+        <header class="flex-header">This is Header</header>
+        <main class="flex-main">
+          <sidenav class="flex-nav">This is sidenav</sidenav>
+          <article class="flex-article">This is article</article>
+          <aside class="flex-side">This is aside</aside>
+        </main>
+
+        <footer class="flex-footer">This is footer</footer>
+      </div>
 
       {/* <Greet name="ramana">
         <div>How are you doing props</div>

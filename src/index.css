@@ -60,6 +60,15 @@ span {
   color: blue;
   font-size: 50px;
 }
+.orange {
+  background-color: orange;
+  color: violet;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+}
 /* 
 div{
   background-color: red;

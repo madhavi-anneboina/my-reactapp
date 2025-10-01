@@ -42,6 +42,10 @@ const App = () => {
         <footer class="flex-footer">This is footer</footer>
       </div>
 
+       <div class="yellow">
+        Hello this is ramana
+       </div>
+       <span class="orange">Hello this is madhavi </span>
       {/* <Greet name="ramana">
         <div>How are you doing props</div>
       </Greet>

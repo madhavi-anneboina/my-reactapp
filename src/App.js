@@ -42,11 +42,19 @@ const App = () => {
         <footer class="flex-footer">This is footer</footer>
       </div> */}
 
-       <div class="yellow">
-        Hello this is ramana
-       </div>
-       <span class="orange">Hello this is madhavi </span>
-      {/* <Greet name="ramana">
+      <div class="yellow">Hello this is ramana</div>
+      <span class="orange">Hello this is madhavi </span>
+        <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      
+
+      <div class="box-model">
+       css box model
+      </div>
+          {/* <Greet name="ramana">
         <div>How are you doing props</div>
       </Greet>
       <Greet name="tuy" />

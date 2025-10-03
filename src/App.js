@@ -31,7 +31,7 @@ import HoverCounterTwo from "./components/HoverCounterTwo";
 const App = () => {
   return (
     <div>
-      <div class="head">
+      {/* <div class="head">
         <header class="flex-header">This is Header</header>
         <main class="flex-main">
           <sidenav class="flex-nav">This is sidenav</sidenav>
@@ -40,7 +40,7 @@ const App = () => {
         </main>
 
         <footer class="flex-footer">This is footer</footer>
-      </div>
+      </div> */}
 
        <div class="yellow">
         Hello this is ramana

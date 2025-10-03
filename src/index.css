@@ -62,12 +62,23 @@ span {
 }
 .orange {
   background-color: orange;
+  text-align: center;
   color: violet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
 .yellow {
   background-color: yellow;
   color: white;
+  text-align: right;
+  font-size: 30px;
+  line-height: 2;
+  letter-spacing: ;
+
 }
 /* 
 div{

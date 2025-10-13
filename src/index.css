@@ -90,6 +90,26 @@ span {
   border-radius: 6px;
 }
 
+
+h2 { 
+  color: purple;
+}
+
+h3 {
+  color: green;
+}
+#title {
+  color: blue;
+}
+.sub-headiing {
+  color: brown;
+}
+.inheritance{
+  color:aqua;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
 /* 
 div{
   background-color: red;

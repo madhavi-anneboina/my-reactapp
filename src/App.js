@@ -44,15 +44,19 @@ const App = () => {
 
       <div class="yellow">Hello this is ramana</div>
       <span class="orange">Hello this is madhavi </span>
-        <ul>
+        {/* <ul>
         <li>Coffee</li>
         <li>Tea</li>
         <li>Milk</li>
-      </ul>
+      </ul> */}
+
+      <h2>Cascade</h2> 
+      <h3  id = "title"
+      class="sub-headiing">Specificity</h3>
       
 
-      <div class="box-model">
-       css box model
+      <div class="inheritance">
+       <p>inheritance</p>
       </div>
           {/* <Greet name="ramana">
         <div>How are you doing props</div>

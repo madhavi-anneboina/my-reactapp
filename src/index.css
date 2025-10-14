@@ -42,19 +42,19 @@ a:active {
 /* p{
   margin: 20px !important;
 } */
-table {
+/* table {
   border: 2px solid red;
   background-color: lime;
-}
+} */
 
-th {
+/* th {
   color: blue;
   background-color: brown;
-}
+} */
 
-td {
+/* td {
   background-color: wheat;
-}
+} */
 
 span {
   color: blue;
@@ -109,6 +109,27 @@ h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
 }
+
+th, td {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+.content1{
+  border : 2px dotted red;
+  display: inline;
+}
+
+.content2{
+  border : 2px dashed blue;
+  display: none;
+}
+
 
 /* 
 div{
